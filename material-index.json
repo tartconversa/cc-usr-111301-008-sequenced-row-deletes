@@ -1,0 +1,22 @@
+[
+  {
+    "path": "fixtures/data/new.jsonl",
+    "sha256": "0decd47c74e489b5a5630e1b97a819e8a7735bf1e8fbca256540cdc432fa7504",
+    "size_bytes": 47
+  },
+  {
+    "path": "fixtures/data/old.jsonl",
+    "sha256": "6c6dc1624ad4d40376b85bda0642cdb906461ee2c4b681ad830ae94799a8b365",
+    "size_bytes": 44
+  },
+  {
+    "path": "fixtures/deletes.json",
+    "sha256": "293745203d6db3a8ef5f0bb6ce8ad463444e9b29641ff5f141112f600f61699f",
+    "size_bytes": 400
+  },
+  {
+    "path": "fixtures/manifest.json",
+    "sha256": "334e0aaf82379fe39e8b182117c356974e1f16139e510ca2e87738b59973a052",
+    "size_bytes": 749
+  }
+]

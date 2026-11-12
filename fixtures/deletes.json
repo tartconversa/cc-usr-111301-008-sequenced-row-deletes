@@ -1,0 +1,26 @@
+{
+  "deletes": [
+    {
+      "id": "eq6",
+      "kind": "equality",
+      "delete_sequence": 6,
+      "field_ids": [
+        1
+      ],
+      "keys": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "id": "pos-old1",
+      "kind": "position",
+      "target_file_id": "old",
+      "positions": [
+        1
+      ]
+    }
+  ],
+  "equality_sequence_rule": "data_sequence < delete_sequence"
+}

@@ -1,0 +1,42 @@
+{
+  "data_files": [
+    {
+      "file_id": "old",
+      "path": "data/old.jsonl",
+      "data_sequence": 5,
+      "sha256": "6c6dc1624ad4d40376b85bda0642cdb906461ee2c4b681ad830ae94799a8b365"
+    },
+    {
+      "file_id": "new",
+      "path": "data/new.jsonl",
+      "data_sequence": 6,
+      "sha256": "0decd47c74e489b5a5630e1b97a819e8a7735bf1e8fbca256540cdc432fa7504"
+    }
+  ],
+  "schemas": {
+    "k": {
+      "field_id": 1,
+      "type": "integer",
+      "nullable": true
+    }
+  },
+  "snapshots": {
+    "before": {
+      "data": [
+        "old"
+      ],
+      "deletes": []
+    },
+    "after": {
+      "data": [
+        "old",
+        "new"
+      ],
+      "deletes": [
+        "eq6",
+        "pos-old1"
+      ]
+    }
+  },
+  "current": "after"
+}
